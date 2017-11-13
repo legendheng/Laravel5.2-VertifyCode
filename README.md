@@ -1,9 +1,9 @@
 # Laravel5.2-VertifyCode
 ## Laravel5.2结合第三方验证码类库实现验证码功能
-### 第一步、把第三方类验证码放在源文件的resources目录下，再新建一个org目录，放在里面可以解压上面的压缩包
+### 第一步、把上面的两个字体库和验证码类放在源文件的resources目录下的org目录，org目录需要自己创建
 ### 第二步、在控制器引入验证码类
 ```php
-require_once 'resources\org\code\vcode.class.php';
+require_once 'resources\org\vcode.class.php';
 ```
 ### 第三步、编写生成验证码的方法，并创建对应生成验证码的路由
 ```php
